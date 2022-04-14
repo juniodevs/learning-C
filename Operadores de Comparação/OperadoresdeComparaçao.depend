@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1649896085 source:c:\users\pichau\desktop\learning-c\operadoresdecomparaçao\main.c
+	<stdio.h>
+	<stdlib.h>
+

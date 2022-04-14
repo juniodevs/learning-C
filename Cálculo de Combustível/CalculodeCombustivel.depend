@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1649900488 source:c:\users\pichau\desktop\learning-c\cálculo de combustível\main.c
+	<stdio.h>
+	<stdlib.h>
+

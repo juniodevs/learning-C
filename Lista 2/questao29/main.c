@@ -18,7 +18,7 @@ int main()
     printf("Digite o Ano\n");
     scanf("%i",&ano);
 
-    if (ano % 4 == 0 && ano % 100 != 0) //Verificação de Ano Bissexto
+    if (ano%400==0 || ano%4==0 && ano%100!=0) //Verificação de Ano Bissexto
     {
         bissexto++;
         //(bissexto = 1) = Ano bissexto.
@@ -32,7 +32,7 @@ int main()
         {
             printf("\n%i/%i/%i esta data e valida este ano nao e bissexto\n", dia, mes, ano);
         }
-        else if (dia > 31 || mes > 12)
+        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1)
         //verificação se a data é valida
         {
             printf("\n%i/%i/%i esta data e invalida\n", dia, mes, ano);
@@ -61,7 +61,7 @@ int main()
         {
             printf("\n%i/%i/%i esta data e valida este ano e bissexto\n", dia, mes, ano);
         }
-        else if (dia > 31 || mes > 12)
+        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1)
         //verificação se a data é valida
         {
             printf("\n%i/%i/%i esta data e invalida\n", dia, mes, ano);

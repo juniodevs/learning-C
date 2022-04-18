@@ -41,6 +41,10 @@ int main()
         {
             printf("\n%i/%i/%i esta data e valida este ano nao e bissexto\n", dia, mes, ano);
         }
+            else if (mes == 2 && dia > 28)
+        {
+            printf("\n%i/%i/%i esta data nao e valida\n", dia, mes, ano);
+        }
     }
 
     else if (bissexto==1)
@@ -60,6 +64,10 @@ int main()
         else if (mes == 2 && dia <=29 && mes<=12)
         {
             printf("\n%i/%i/%i esta data e valida este ano e bissexto\n", dia, mes, ano);
+        }
+        else if (mes == 2 && dia > 29)
+        {
+            printf("\n%i/%i/%i esta data nao e valida\n", dia, mes, ano);
         }
     }
     return 0;

@@ -30,9 +30,9 @@ int main()
         if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 && dia <= 31 && mes<=12)
         //Os meses 1,3,5,7,8,10 e 12 = são os meses com 31 dias
         {
-            printf("\n%i/%i/%i esta data e valida este ano nao e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano nao e bissexto\n", dia, mes, ano);
         }
-        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1)
+        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1 || ano < 1)
         //verificação se a data é valida
         {
             printf("\n%i/%i/%i esta data e invalida\n", dia, mes, ano);
@@ -40,12 +40,12 @@ int main()
         else if (mes == 4 || mes == 6 || mes == 9 || mes == 11 && dia <= 30 && mes<=12)
         //Os meses 4,6,9 e 11 = são os meses com 30 dias
         {
-            printf("\n%i/%i/%i esta data e valida este ano nao e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano nao e bissexto\n", dia, mes, ano);
         }
         else if (mes == 2 && dia <=28 && mes<=12)
         //Verificação se o mês é fevereiro, caso ele for em ano não bissexto ele tera no máximo 28 dias.
         {
-            printf("\n%i/%i/%i esta data e valida este ano nao e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano nao e bissexto\n", dia, mes, ano);
         }
             else if (mes == 2 && dia > 28)
         //Caso fevereiro tenha mais que 28 dias em anos não bissextos a data será invalida.
@@ -59,9 +59,9 @@ int main()
         if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 && dia <= 31 && mes<=12)
         //Os meses 1,3,5,7,8,10 e 12 = são os meses com 31 dias
         {
-            printf("\n%i/%i/%i esta data e valida este ano e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano e bissexto\n", dia, mes, ano);
         }
-        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1)
+        else if (dia > 31 || mes > 12 || mes < 1 || dia < 1 || ano < 1)
         //verificação se a data é valida
         {
             printf("\n%i/%i/%i esta data e invalida\n", dia, mes, ano);
@@ -69,13 +69,13 @@ int main()
         else if (mes == 4 || mes == 6 || mes == 9 || mes == 11 && dia <= 30 && mes<=12)
         //Os meses 4,6,9 e 11 = são os meses com 30 dias
         {
-            printf("\n%i/%i/%i esta data e valida este ano e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano e bissexto\n", dia, mes, ano);
         }
         else if (mes == 2 && dia <=29 && mes<=12)
         //Verificação se o mês é fevereiro, caso ele for um ano bissexto ele tera no máximo 29 dias.
 
         {
-            printf("\n%i/%i/%i esta data e valida este ano e bissexto\n", dia, mes, ano);
+            printf("\n%i/%i/%i esta data e valida, este ano e bissexto\n", dia, mes, ano);
         }
         else if (mes == 2 && dia > 29)
         //Caso fevereiro tenha mais que 29 dias em anos bissextos a data será invalida.

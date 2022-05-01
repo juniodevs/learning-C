@@ -16,11 +16,8 @@ int main()
 {
     int num1 = 0, num2 = 0, soma = 0;
 
-    printf("Digite o primeiro valor\n");
-    scanf("%d", &num1);
-
-    printf("Digite o segundo valor\n");
-    scanf("%d", &num2);
+    printf("Digite o primeiro e o segundo valor\n");
+    scanf("%d %d", &num1, &num2);
 
     if(num1<=num2 && num1>0)
     {
@@ -33,7 +30,6 @@ int main()
         }
         else
         {
-            soma = soma + num1;
             num1++;
         }
       }
@@ -41,7 +37,7 @@ int main()
     }
     else
     {
-      printf("Valor invalido");
+      printf("Valores invalidos");
     }
     return 0;
 }

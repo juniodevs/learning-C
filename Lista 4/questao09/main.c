@@ -1,6 +1,6 @@
 /*
-8. Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores lidos na
-ordem inversa
+9. Crie um programa que lê 6 valores inteiros pares e, em seguida, mostre na tela os valores lidos na
+ordem inversa.
 */
 
 #include <stdio.h>
@@ -22,6 +22,5 @@ int i = 1, num[6];
     {   i--;
         printf("%d", num[i]);
     }
-
     return 0;
 }

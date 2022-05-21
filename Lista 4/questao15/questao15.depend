@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1653073001 source:c:\users\pichau\documents\github\learning-c\lista 4\questao15\main.c
+	<stdio.h>
+	<stdlib.h>
+

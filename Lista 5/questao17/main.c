@@ -13,12 +13,12 @@ peça do meu oponente (1).
 
 int main()
 {
-    int rand(void); //Declaração da função Random 'aleatória'
-    srand( (unsigned)time(NULL) ); //Complemento da função aleatória
+
     int tabuleiro[3][3] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
     int i, x, marcUser, colunaUser, marcPc, colunaPc, fimdejogo = 0, turnoUser, turnoPc;
+    srand( (unsigned)time(NULL) ); //Para os valores não se repetir
 
-    while (fimdejogo == 0) //Roda o Código até alguém vencer
+    while (fimdejogo == 0) //Roda o Código até alguém vencer ou perder
     {
         turnoUser = 0; //Reset das jogadas
         turnoPc = 0;
@@ -45,6 +45,8 @@ int main()
         tabuleiro[marcUser-1][colunaUser-1] = -1;
         turnoUser = 1;
     }
+
+
 }
 if (tabuleiro[0][0] != 0 && tabuleiro[0][1] != 0 && tabuleiro[0][2] != 0 &&
     tabuleiro[1][0] != 0 && tabuleiro[1][1] != 0 && tabuleiro[1][2] != 0 &&
@@ -72,34 +74,34 @@ if (tabuleiro[0][0] != 0 && tabuleiro[0][1] != 0 && tabuleiro[0][2] != 0 &&
             //Confirmar Derrota
             fimdejogo = 1;
         }
-        if (tabuleiro[0][0] + tabuleiro[1][0] + tabuleiro[2][0] ==3 ||
+    if (tabuleiro[0][0] + tabuleiro[1][0] + tabuleiro[2][0] ==3 ||
         tabuleiro[0][1] + tabuleiro[1][1] + tabuleiro[2][1] == 3||
         tabuleiro[0][2] + tabuleiro[1][2] + tabuleiro[2][2] == 3){
             printf("Voce perdeu \n");
             //Confirmar Derrota
             fimdejogo = 1;
         }
-         if (tabuleiro[0][0] + tabuleiro[1][1] + tabuleiro[2][2] ==3 ||
+    if (tabuleiro[0][0] + tabuleiro[1][1] + tabuleiro[2][2] ==3 ||
         tabuleiro[2][0] + tabuleiro[1][1] + tabuleiro[0][2] == 3){
             printf("Voce perdeu \n");
             //Confirmar Derrota
             fimdejogo = 1;
         }
-        if (tabuleiro[0][0] + tabuleiro[0][1] + tabuleiro[0][2] == -3 ||
+    if (tabuleiro[0][0] + tabuleiro[0][1] + tabuleiro[0][2] == -3 ||
         tabuleiro[1][0] + tabuleiro[1][1] + tabuleiro[1][2] == -3||
         tabuleiro[2][0] + tabuleiro[2][1] + tabuleiro[2][2] == -3){
             printf("Voce venceu \n");
             //Confirmar Vitoria
             fimdejogo = 1;
         }
-        if (tabuleiro[0][0] + tabuleiro[1][0] + tabuleiro[2][0] == -3 ||
+    if (tabuleiro[0][0] + tabuleiro[1][0] + tabuleiro[2][0] == -3 ||
         tabuleiro[0][1] + tabuleiro[1][1] + tabuleiro[2][1] == -3||
         tabuleiro[0][2] + tabuleiro[1][2] + tabuleiro[2][2] == -3){
             printf("Voce venceu \n");
             //Confirmar Vitoria
             fimdejogo = 1;
         }
-         if (tabuleiro[0][0] + tabuleiro[1][1] + tabuleiro[2][2] == -3 ||
+    if (tabuleiro[0][0] + tabuleiro[1][1] + tabuleiro[2][2] == -3 ||
         tabuleiro[2][0] + tabuleiro[1][1] + tabuleiro[0][2] == -3){
             printf("Voce venceu \n");
             //Confirmar Vitoria

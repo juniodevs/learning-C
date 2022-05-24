@@ -1,0 +1,31 @@
+/*
+24. Faça um programa que preencha um vetor de tamanho 100 com os 100 primeiros naturais que não
+são múltiplos de 7.
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i = 1, x = 1, num[100];
+
+    while(i<=693)
+    {
+        if(i%7==0)
+        {
+        num[x] = i;
+        x++;
+        }
+    i++;
+    }
+
+    i = 1;
+
+    while(i<=99)
+    {
+        printf("%d\n", num[i]);
+        i++;
+    }
+    return 0;
+}

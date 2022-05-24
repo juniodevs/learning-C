@@ -10,9 +10,9 @@ int main()
 {
     int i = 1, x = 1, num[100];
 
-    while(i<=693)
+    while(i<=115)
     {
-        if(i%7==0)
+        if(i%7!=0)
         {
         num[x] = i;
         x++;

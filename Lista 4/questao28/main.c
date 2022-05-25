@@ -6,6 +6,7 @@
 4 A quantidade de números ímpares digitados;
 */
 
+
 #include <stdio.h>
 #include <stdlib.h>
 

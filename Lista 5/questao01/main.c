@@ -31,7 +31,6 @@ int main()
             if(matriz[i][x] > 10)
             {
                 contagem++;
-                printf("Debug\n");
             }
             else
             {   

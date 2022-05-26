@@ -1,5 +1,5 @@
 /*
-Leia 10 números inteiros e armazene em um vetor v.
+Leia 10 nï¿½meros inteiros e armazene em um vetor v.
 Crie dois novos vetores v1 e v2.
 Copie os valores impares de v para v1, e os valores pares de v para v2. Imprima v1 e v2.
 */
@@ -9,18 +9,8 @@ Copie os valores impares de v para v1, e os valores pares de v para v2. Imprima 
 
 int main()
 {
-    int v[10], v1[10], v2[10], i = 1;
+    int v[10] = {0}, v1[10] = {0}, v2[10] = {0}, i = 1;
     printf("Digite 10 Numeros\n");
-
-
-    while(i<=10) //WHILE DE RESET
-    {
-        v1[i] = 0;
-        v2[i] = 0;
-        i++;
-    }
-
-    i = 1;
 
     while(i<=10)
     {

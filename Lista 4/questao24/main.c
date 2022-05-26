@@ -1,6 +1,6 @@
 /*
-24. Faça um programa que preencha um vetor de tamanho 100 com os 100 primeiros naturais que não
-são múltiplos de 7.
+24. Faï¿½a um programa que preencha um vetor de tamanho 100 com os 100 primeiros naturais que nï¿½o
+sï¿½o mï¿½ltiplos de 7.
 */
 
 #include <stdio.h>
@@ -8,7 +8,7 @@ são múltiplos de 7.
 
 int main()
 {
-    int i = 1, x = 1, num[100];
+    int i = 1, x = 1, num[100] = {0};
 
     while(i<=115)
     {

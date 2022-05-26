@@ -1,6 +1,6 @@
 /*
-21. Faça um programa que leia dois vetores de 10 posições e calcule outro vetor contendo, nas
-posições pares os valores do primeiro e nas posições ímpares os valores do segundo.
+21. Faï¿½a um programa que leia dois vetores de 10 posiï¿½ï¿½es e calcule outro vetor contendo, nas
+posiï¿½ï¿½es pares os valores do primeiro e nas posiï¿½ï¿½es ï¿½mpares os valores do segundo.
 */
 
 #include <stdio.h>
@@ -8,7 +8,7 @@ posições pares os valores do primeiro e nas posições ímpares os valores do segun
 
 int main()
 {
-    int i = 1, A[10], B[10], C[10];
+    int i = 1, A[10] = {0}, B[10] = {0}, C[10] = {0};
     printf("Digite os 10 Valores de A\n");
 
     while(i<=10)

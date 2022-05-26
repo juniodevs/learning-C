@@ -1,9 +1,9 @@
 /*
-28. Faça um programa que receba 6 números inteiros e mostre:
-1 Os números pares digitados;
-2 A soma dos números pares digitados;
-3 Os números ímpares digitados;
-4 A quantidade de números ímpares digitados;
+28. Faï¿½a um programa que receba 6 nï¿½meros inteiros e mostre:
+1 Os nï¿½meros pares digitados;
+2 A soma dos nï¿½meros pares digitados;
+3 Os nï¿½meros ï¿½mpares digitados;
+4 A quantidade de nï¿½meros ï¿½mpares digitados;
 */
 
 
@@ -12,19 +12,10 @@
 
 int main()
 {
-    int i = 1, num[6], pares[6], impares[6], soma = 0, quantidade = 0;
+    int i = 1, num[6] = {0}, pares[6] = {0}, impares[6] = {0}, soma = 0, quantidade = 0;
 
     printf("Digite 6 Numeros\n");
 
-    while(i<=6) // reset
-    {
-        num[i] = 0;
-        pares[i] = 0;
-        impares[i] = 0;
-        i++;
-    }
-
-    i = 1;
 
     while(i<=6)
     {

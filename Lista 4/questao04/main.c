@@ -1,7 +1,7 @@
 /*
-4. Faça um programa que leia um vetor de 8 posições e, em seguida, leia também dois valores X e Y
-quaisquer correspondentes a duas posições no vetor. Ao final seu programa deverá escrever a
-soma dos valores encontrados nas respectivas posições X e Y.
+4. Faï¿½a um programa que leia um vetor de 8 posiï¿½ï¿½es e, em seguida, leia tambï¿½m dois valores X e Y
+quaisquer correspondentes a duas posiï¿½ï¿½es no vetor. Ao final seu programa deverï¿½ escrever a
+soma dos valores encontrados nas respectivas posiï¿½ï¿½es X e Y.
 */
 
 
@@ -11,10 +11,9 @@ soma dos valores encontrados nas respectivas posições X e Y.
 
 int main()
 {
-    int i = 1, num[8], x, y;
+    int i = 1, num[8], posicao [8] = {0}, x, y, resultado;
 
     printf("Digite os oito numeros\n");
-
 
     while(i<=8)
     {
@@ -27,9 +26,9 @@ int main()
     printf("Digite o Y\n");
     scanf("%d", &y);
 
-    i = x + y;
+    resultado = num[x] + num[y];
 
-    printf("O Resultado da soma de X e Y e: %d", i);
+    printf("O Resultado da soma de X e Y e: %d", resultado);
 
     return 0;
 }

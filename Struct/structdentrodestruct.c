@@ -82,18 +82,18 @@ int main()
     for (i = 0; i < 2; i++)
     {
         printf("\n\n%d Cadastro\n\n");
-        printf("\n Nome.......: %s", cad_cliente[i].nome_cliente);
-        printf("\n Rua.......: %s", cad_cliente[i].endereco.rua);
-        printf("\n Numero.......: %d", cad_cliente[i].endereco.numero);
-        printf("\n Bairro.......: %s", cad_cliente[i].endereco.bairro);
-        printf("\n Rua.......: %s", cad_cliente[i].endereco.rua);
-        printf("\n Cidade.......: %s", cad_cliente[i].endereco.cidade);
-        printf("\n Estado.......: %s", cad_cliente[i].endereco.estado);
-        printf("\n CEP.......: %d", cad_cliente[i].endereco.cep);
+        printf("\nNome.......: %s", cad_cliente[i].nome_cliente);
+        printf("\nRua.......: %s", cad_cliente[i].endereco.rua);
+        printf("\nNumero.......: %d", cad_cliente[i].endereco.numero);
+        printf("\nBairro.......: %s", cad_cliente[i].endereco.bairro);
+        printf("\nRua.......: %s", cad_cliente[i].endereco.rua);
+        printf("\nCidade.......: %s", cad_cliente[i].endereco.cidade);
+        printf("\nEstado.......: %s", cad_cliente[i].endereco.estado);
+        printf("\nCEP.......: %d", cad_cliente[i].endereco.cep);
 
-        printf("\n dia de nasc: %d", cad_cliente[i].data_nascimento.dia);
-        printf("\n mes de nasc: %d", cad_cliente[i].data_nascimento.mes);
-        printf("\n ano de nasc: %d", cad_cliente[i].data_nascimento.ano);
+        printf("\ndia de nasc: %d", cad_cliente[i].data_nascimento.dia);
+        printf("\nmes de nasc: %d", cad_cliente[i].data_nascimento.mes);
+        printf("\nano de nasc: %d", cad_cliente[i].data_nascimento.ano);
     }
     return 0;
 }

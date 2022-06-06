@@ -4,21 +4,19 @@ quaisquer correspondentes a duas posi��es no vetor. Ao final seu programa de
 soma dos valores encontrados nas respectivas posi��es X e Y.
 */
 
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    int i = 1, num[8], posicao [8] = {0}, x, y, resultado;
+    int i = 1, num[8], x, y, resultado;
 
     printf("Digite os oito numeros\n");
 
-    while(i<=8)
+    while (i <= 8)
     {
-     scanf("%d",&num[i]);
-     i++;
+        scanf("%d", &num[i]);
+        i++;
     }
 
     printf("Digite o X\n");

@@ -16,7 +16,6 @@ int main()
     while (i<20)
     {
         scanf("%d", &num[i]);
-
         if (num[i] > 0)
         {
             num2[i] = num[i];

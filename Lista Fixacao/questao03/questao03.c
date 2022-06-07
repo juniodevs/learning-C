@@ -11,7 +11,6 @@ int main()
     int i = 0, num[20], num2[20], menor = 1000000, aux = 0;
 
     printf("Digite os 20 Numeros inteiros positivos\n");
-
     while (i<20)
     {
         scanf("%d", &num[i]);

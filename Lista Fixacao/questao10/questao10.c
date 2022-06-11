@@ -8,13 +8,13 @@ o nome dela tem. Obs.: lembre-se que uma string termina sempre com um caractere 
 
 int main()
 {
-    int i = 0, quantidade = 0;
+    int quantidade = 0;
     char nomepessoa[20];
 
     printf("Digite seu nome\n");
     scanf("%s", &nomepessoa);
 
-    while (i < 20)
+    for ( int i = 0; i < 20; i++)
     {
         if (nomepessoa[i] == '\0')
         {
@@ -23,8 +23,7 @@ int main()
         else
         {
             quantidade++;
-        }
-        i++;
+        }  
     }
 
     printf("%s tem %d letras", nomepessoa, quantidade);

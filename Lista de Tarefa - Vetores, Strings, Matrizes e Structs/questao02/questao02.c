@@ -10,20 +10,19 @@ imprima na tela sua forma "secreta". Ex.: "FUTEBOL HOJE MAIS TARDE" se transform
 int main()
 {
 
-  void inverter(char vet[]){
-    int i, auxiliar, final, tamanho = strlen(vet);
-
+  void inverter(char vett[]){
+    int i, auxiliar, final, tamanho = strlen(vett);
     final = tamanho - 1;
     for(i = 0; i < tamanho/2; i++){
-        auxiliar = vet[i];
-        vet[i] = vet[final];
-        vet[final] = auxiliar;
+        auxiliar = vett[i];
+        vett[i] = vett[final];
+        vett[final] = auxiliar;
         final--;
   }
 }
     char palavra[50];
-    printf("Digite a frase: ");
-    scanf("%s", &palavra);
+    printf("Digite e recebera o inverso: ");
+    gets (palavra);
 
     printf("%s\n", palavra);
 

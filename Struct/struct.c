@@ -18,10 +18,10 @@ int main(void)
     printf("Nome do aluno ...:");
     fgets(aluno.nome, 40 ,stdin);
 
-    printf("\n Digite o numero do aluno: ");
+    printf("\nDigite o numero do aluno: ");
     scanf("%d", &aluno.numero);
 
-    printf("\n Informe a nota do Aluno: ");
+    printf("\nInforme a nota do Aluno: ");
     scanf("%f", &aluno.nota);
 
     printf("\n\n LENDO DADOS DA STRUCT \n\n");

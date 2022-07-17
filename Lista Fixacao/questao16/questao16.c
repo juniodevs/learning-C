@@ -6,6 +6,7 @@ e conte quantos números primos tem no vetor.
 #include <stdio.h>
 #include <stdlib.h>
 
+
 verificacaodeprimos()
 {
     int i = 0, x = 0, primos = 0, aux = 0;
@@ -43,5 +44,6 @@ verificacaodeprimos()
 int main()
 {
     verificacaodeprimos();
+    system("pause");
     return 0;
 }

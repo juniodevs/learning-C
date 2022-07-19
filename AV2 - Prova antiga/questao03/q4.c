@@ -1,7 +1,8 @@
-/*Implemente uma função que calcule a raiz de uma euqção do segundo grau do tipo Ax2 + Bc + C = 0.
+/*Implemente uma função que calcule a raiz de uma equação do segundo grau do tipo Ax2 + Bc + C = 0.
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int raizes (float A, float B, float C, float * X1, float * X2)
 {
